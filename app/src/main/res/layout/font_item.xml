@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/padding_10"
+    app:cardElevation="@dimen/padding_10"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_done_white_24dp"
+            android:visibility="invisible"
+            android:id="@+id/image_check"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+        <LinearLayout
+            android:id="@+id/font_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text_font_demo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEMO"
+                android:textSize="60dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/text_font_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEMO"
+                android:textSize="16dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
