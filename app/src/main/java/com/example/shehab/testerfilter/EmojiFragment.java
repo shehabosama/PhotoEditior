@@ -59,5 +59,6 @@ public class EmojiFragment extends BottomSheetDialogFragment implements EmojeAda
     public void onEmojiItemSelected(String emoji)
     {
         listener.EmojiSelected(emoji);
+        dismiss();
     }
 }
